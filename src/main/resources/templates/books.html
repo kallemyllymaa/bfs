@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="default">
+<head>
+<title>Books</title>
+</head>
+<body>
+	<div layout:fragment="content">
+		<h1>Books</h1>
+		<a href="/new">Add a book</a>
+		<form id="search">
+			<input type="text" name="query" value="" />
+  			<input type="submit" value="Search" />
+		</form>
+		<div id="books">
+			<p>No books!</p>
+		</div>
+	</div>
+	<th:block layout:fragment="script">
+		<script type="text/javascript" th:src="@{/js/books.js}" ></script>
+	</th:block>
+</body>
+</html>

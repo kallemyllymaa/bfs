@@ -1,0 +1,3 @@
+INSERT INTO BOOK VALUES (1, 'Leo Tolstoy', 'The novel chronicles the history of the French invasion of Russia and the impact of the Napoleonic era on Tsarist society through the stories of five Russian aristocratic families.', 'War and Peace');
+INSERT INTO BOOK VALUES (2, 'Herman Melville', 'The book is sailor Ishmael''s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the white whale that on the ship''s previous voyage bit off Ahab''s leg at the knee.', 'Moby-Dick');
+INSERT INTO BOOK VALUES (3, 'Leo Tolstoy', 'Anna Karenina is a novel by the Russian author Leo Tolstoy, first published in book form in 1878, and widely considered one of the greatest works of fiction ever written.', 'Anna Karenina');
